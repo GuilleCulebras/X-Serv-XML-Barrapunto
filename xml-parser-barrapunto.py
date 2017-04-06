@@ -1,15 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-#
-# Simple XML parser for the RSS channel from BarraPunto
-# Jesus M. Gonzalez-Barahona
-# jgb @ gsyc.es
-# TSAI and SAT subjects (Universidad Rey Juan Carlos)
-# September 2009
-#
-# Just prints the news (and urls) in BarraPunto.com,
-#  after reading the corresponding RSS channel.
 
 from xml.sax.handler import ContentHandler
 from xml.sax import make_parser
